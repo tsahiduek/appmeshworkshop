@@ -41,7 +41,7 @@ spec:
         app: nodejs-app
     spec:
       containers:
-      - image: aws-containers/ecsdemo-nodejs:latest
+      - image: brentley/ecsdemo-nodejs:latest
         imagePullPolicy: Always
         name: nodejs-app
         ports:
